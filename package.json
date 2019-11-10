@@ -3,6 +3,8 @@
   "version": "0.0.1",
   "description": "A discord bot with various commands",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +23,10 @@
   },
   "homepage": "https://github.com/linulas/jack-the-pup#readme",
   "dependencies": {
-    "discord.js": "^11.5.1"
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
   }
 }

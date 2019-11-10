@@ -1,0 +1,26 @@
+{
+  "name": "jack-the-pup",
+  "version": "0.0.1",
+  "description": "A discord bot with various commands",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linulas/jack-the-pup.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "automation"
+  ],
+  "author": "Linus Brännström",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linulas/jack-the-pup/issues"
+  },
+  "homepage": "https://github.com/linulas/jack-the-pup#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}

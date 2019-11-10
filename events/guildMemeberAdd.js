@@ -1,7 +1,5 @@
-module.exports = (client, member) => {
+ module.exports = (client, member) => {
     member.send(
-        `Welcome to The Pack! Here's some useful info to get you started:\n\n
-        Help your fellow Packmens to add you on various platforms: \n\n
-        Bot Commands`
-      )
-  }
+      `Welcome on the server! Please be aware that we won't tolerate troll, spam or harassment. Have fun 😀`
+    );
+  };
